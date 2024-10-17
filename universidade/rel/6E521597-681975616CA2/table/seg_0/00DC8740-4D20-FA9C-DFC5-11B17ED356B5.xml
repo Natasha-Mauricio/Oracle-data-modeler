@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00DC8740-4D20-FA9C-DFC5-11B17ED356B5" name="ALUNO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>A17915DE-1CD4-5285-3547-2F526E3991A9</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aluno" id="4A0C06B1-C74B-5E4C-5E18-98C5DE347C75">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>75EB175B-A45A-9DC1-D3D9-91B2DF396446</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_aluno" id="4ABF4EE6-FB2A-31FA-FCBE-86B81027FF3C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>7DB26459-5623-DEEC-4B2D-196BB3FFDB6B</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="72A6C699-367A-18C9-785E-D55AF442D262">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>C92B83E0-1FA0-31D0-5D31-09F253C3049A</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gr_aluno" id="7A6A464E-11C1-7221-10DB-032CDAFAA4D5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Em genero é apenas aceito os valores: "Masculino", "Feminino" ou "Outros"]]></commentInRDBMS>
+<generatorID>C167BFC7-F612-79B1-E7F9-78A717D73E88</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="AE86AAF3-42BF-9790-5132-E62AAE219ED8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>060C57C9-70D8-7663-ED24-3E0BE2185EF9</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="etnia" id="5DE55483-792F-5C9B-0735-767C5B3543AF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>3077D0D5-D0A7-A833-E4FE-B18C2BF01D18</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TURMA_id_turma" id="D856B205-B10C-8EB1-5FE0-CA3C6A4D44F5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>C2606AF5-EA0F-F707-5AB6-18E4394FFB57</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C864375-0DBD-2F42-3697-388025B77350" referredColumn="04FA0FCC-C2EF-098E-D2EF-ED8534CBD562"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44FFD24C-1BEE-1C7C-EB0D-C9211DA23077" name="ALUNO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>8778DF45-45BD-91DF-17DF-5E9C33DCA5EB</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A0C06B1-C74B-5E4C-5E18-98C5DE347C75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BECDDA2A-5F34-63B0-B859-5E04F2B8EC4C" name="ALUNO_TURMA_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-17 11:14:43 UTC</createdTime>
+<generatorID>B79ADE50-A29D-E057-2229-5F49BA1FD10E</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D856B205-B10C-8EB1-5FE0-CA3C6A4D44F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
